@@ -18,6 +18,9 @@ public class BookHotelPage extends ReusableCode {
 	}
 	@FindBy(id="first_name")
 	private WebElement txtFirstName;
+	
+	@FindBy(id="first_name1")
+	private WebElement txtFirstName1;
 
 	@FindBy(id="last_name")
 	private WebElement txtLastName;
