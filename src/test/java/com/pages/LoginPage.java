@@ -13,6 +13,13 @@ import com.reusable.ReusableCode;
 
 //Login with valid credentials
 public class LoginPage extends ReusableCode{
+	{
+		System.out.println("branch A check");
+		System.out.println("branch A check");
+		System.out.println("branch A check");
+		
+
+	}
 	
 	{
 		System.out.println("c vbnm");
