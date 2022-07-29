@@ -14,26 +14,23 @@ import com.reusable.ReusableCode;
 //Login with valid credentials
 public class LoginPage extends ReusableCode{
 	{
-		System.out.println("branch c check");
-		System.out.println("branch c check");
-		System.out.println("branch c check");
-		System.out.println("branch A check");
-		System.out.println("branch A check");
-		System.out.println("branch A check");
+		System.out.println("branch F check");
+		System.out.println("branch F check");
+		System.out.println("branch F check");
+		System.out.println("branch F check");
+		System.out.println("branch F check");
+		System.out.println("branch F check");
 		
 
 		}
 	
 	{
-		System.out.println("c vbnm");
-		System.out.println("c vbnm");
-		System.out.println("c vbnm");
-		System.out.println("c vbnm");
-		System.out.println("c vbnm");
-		System.out.println("c vbnm");
-		System.out.println("c vbnm");
-		System.out.println("c vbnm");
-	}
+		System.out.println("c Hello");
+		System.out.println("c Hello");
+		System.out.println("c Hello");
+		System.out.println("c Hello");
+		System.out.println("c Hello");
+			}
 	
 	
 	public LoginPage() {
