@@ -12,7 +12,7 @@ import org.openqa.selenium.support.PageFactory;
 import com.reusable.ReusableCode;
 
 //Login with valid credentials
-public class LoginPage extends ReusableCode{
+public class LoginPage extends ReusableCode {
 	{
 		System.out.println("branch F check");
 		System.out.println("branch F check");
@@ -28,34 +28,49 @@ public class LoginPage extends ReusableCode{
 		System.out.println("c Hello");
 		System.out.println("branch E check");
 		System.out.println("branch E check");
-		
+		System.out.println("branch E check");
+		System.out.println("branch E check");
+		System.out.println("branch E check");
+		System.out.println("hjhcdbjbk F check");
+		System.out.println("hjhcdbjbk F check");
+		System.out.println("hjhcdbjbk F check");
+		System.out.println("branch F check");
+		System.out.println("branch F check");
 
-		}
-	
+	}
+
 	{
 		System.out.println("hello");
 		System.out.println("c hello");
 		System.out.println("c Hello");
 		System.out.println("c Hello");
+
+		System.out.println("c hello");
+		System.out.println("c hello");
+		System.out.println("c Hello");
+		System.out.println("c Hello");
+		System.out.println("c Hello");
+		System.out.println("c Hello");
+		System.out.println("c Hello");
 	}
-	
-	
+
 	public LoginPage() {
 		PageFactory.initElements(driver, this);
 	}
-	@FindBy (id="username")
+
+	@FindBy(id = "username")
 	private WebElement txtUserName;
 
-	@FindBy (id="password")
+	@FindBy(id = "password")
 	private WebElement txtPassword;
 
-	@FindBy (id="login")
+	@FindBy(id = "login")
 	private WebElement btnLogin;
 
-	@FindBy (xpath="//div[@class='auth_error']")
+	@FindBy(xpath = "//div[@class='auth_error']")
 	private WebElement txtErrorLogin;
-	
-	@FindBy (id="username_show")
+
+	@FindBy(id = "username_show")
 	private WebElement txtLoginSuccess;
 
 	public WebElement getTxtLoginSuccess() {
@@ -78,19 +93,18 @@ public class LoginPage extends ReusableCode{
 		return txtErrorLogin;
 	}
 
-	
 	public void login(String username, String password) throws IOException {
-		//String txtUserName = getPropertyFileValue(username);
-		//String txtPass = getPropertyFileValue(password);
+		// String txtUserName = getPropertyFileValue(username);
+		// String txtPass = getPropertyFileValue(password);
 		type(getTxtUserName(), username);
 		type(getTxtPassword(), password);
 		click(getBtnLogin());
 	}
 
-	//Login with Enter Key
+	// Login with Enter Key
 	public void loginWithEnter(String username, String password) throws AWTException {
-		//String txtUserName = getPropertyFileValue(username);
-		//String txtPass = getPropertyFileValue(password);
+		// String txtUserName = getPropertyFileValue(username);
+		// String txtPass = getPropertyFileValue(password);
 		type(getTxtUserName(), username);
 		type(getTxtPassword(), password);
 
