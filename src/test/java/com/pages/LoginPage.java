@@ -25,14 +25,7 @@ public class LoginPage extends ReusableCode{
 		}
 	
 	{
-		System.out.println("hello");
-		System.out.println("c hello");
-		System.out.println("c hello");
-		System.out.println("c ");
-		System.out.println("hello");
-		System.out.println("c hello");
-		System.out.println("c hello");
-		System.out.println("c hello");
+
 	
 	}
 	
