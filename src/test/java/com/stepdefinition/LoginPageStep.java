@@ -69,6 +69,7 @@ public class LoginPageStep extends ReusableCode {
 	@When("User should verify after login error message which contains {string}")
 	public void userShouldVerifyAfterLoginErrorMessageWhichContains(String expectedErrorMessage) {
 		WebElement txtErrorLogin = pom.getLoginPage().getTxtErrorLogin();
+		System.out.println(txtErrorLogin);
 		Assert.assertTrue(txtErrorLogin.getText().contains(expectedErrorMessage));
 	}
 }
